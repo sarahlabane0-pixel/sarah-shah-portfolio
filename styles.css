@@ -663,3 +663,10 @@ button,input{font:inherit}
   .venice .contained-frame,.mallorca .contained-frame{position:absolute !important;right:5vw !important;top:10vh !important;width:62vw !important;height:45vh !important}
   .venice .destination-copy,.mallorca .destination-copy{position:absolute !important;left:20px !important;bottom:48px !important;width:calc(100% - 40px) !important}
 }
+
+
+/* V11 — Digital Content Expert added, selected work only */
+@media(min-width:901px){.work{height:650vh !important}}
+.p-dce{background:linear-gradient(150deg,#f0ece7,#d9d7d2)}
+.p-dce .dce-visual{background:#1117ff}
+.p-dce .dce-visual img{object-fit:cover;object-position:center}

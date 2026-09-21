@@ -158,7 +158,7 @@
         const shift=Math.max(0,workTrack.scrollWidth-innerWidth+innerWidth*.05);
         workTrack.style.transform=`translate3d(${-shift*p}px,0,0)`;
         if(current){
-          const idx=Math.min(3,Math.floor(p*4));
+          const idx=Math.min(4,Math.floor(p*5));
           current.textContent=String(idx+1).padStart(2,'0');
         }
       }
